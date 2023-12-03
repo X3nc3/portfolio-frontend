@@ -1,0 +1,224 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../public/images.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 50px;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.title {
+  letter-spacing: 15px;
+  font-size: 50px;
+}
+
+.text {
+  font-size: 20px;
+  width: 25%;
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+.textBold {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+
+.icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.3;
+}
+
+.iconsSection {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 5vw;
+}
+
+.buttonLight {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.buttonLight:hover {
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+}
+
+.buttonDark {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.buttonDark:hover {
+  background-color: white;
+  color: black;
+  border: 2px white solid;
+  opacity: 0.3;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.projets {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 39, 152, 1) 100%
+  );
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+  background-color: lightgoldenrodyellow;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.link {
+  margin: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.3;
+}
+.iconFooter {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.logolinkedin {
+  height: 50px;
+  width: 50px;
+  background-image: url("../public/logo-linkedin.png");
+  background-size: cover;
+}
+.logogithub {
+  height: 50px;
+  width: 50px;
+  background-image: url("../public/github-logo.png");
+  background-size: cover;
+}
+.contactLien {
+  display: flex;
+}
+.contactform {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactform > input {
+  color: black;
+  background-color: white;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.contactform > label {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.contactform > button {
+  color: black;
+  font-size: x-large;
+  margin-top: 20px;
+  height: 50px;
+  width: 140px;
+  border-radius: 50px;
+}
+.buttonadd {
+  background-color: white;
+  color: black;
+  border: 2px white solid;
+}
+.buttonadd:hover {
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+}
+.contactform > textarea {
+  color: black;
+  background-color: white;
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
