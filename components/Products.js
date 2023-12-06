@@ -44,6 +44,7 @@ function Products() {
             trigger="hover"
             placement="bottom"
             overlayStyle={{ width: '600px' }}
+            className={styles.popover}
           >
               <div
                 key={i}
