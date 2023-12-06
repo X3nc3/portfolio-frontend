@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   color: black;
-  margin: 40px;
+  margin-top: 40px;
   cursor:pointer
 }
 
@@ -64,4 +64,27 @@
 .link{
   display: inline-block;
   position: relative;
+}
+@media screen and (min-width: 450px) and (max-width: 767.98px){
+  .main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 40px;
+    cursor:pointer
+  }
+  .productCard {
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: black;
+    margin: 15px;
+  }
 }
