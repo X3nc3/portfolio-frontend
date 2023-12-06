@@ -35,26 +35,19 @@ function Products() {
 
   const productsCards = products.map((product, i) => {
     return (
-      <div key={i}>
+      <div key={i} >
         <Link href={product.lien}>
-            <a className={styles.link} style={{ textDecoration: "none", color: "inherit" }}>
-            <Popover
-            content={product.content}
-            title={product.name}
-            trigger="hover"
-            placement="bottom"
-            overlayStyle={{ width: '600px' }}
-          >
+            <a style={{ textDecoration: "none", color: "inherit" }}>
               <div
                 key={i}
                 style={{
                   backgroundImage: `url(${product.image})`,
                   backgroundSize: "contain",
+                  backgroundSize: "cover",
                   backgroundRepeat: 'no-repeat',
                 }}
                 className={styles.productCard}
-              ></div>
-              </Popover>
+              ><div className={styles.overlayStyle}><h2 style={{color: "white"}}>{product.name}</h2><p style={{color: "white", marginRight: 30, marginLeft: 30, textAlign:"center"}}>{product.content}</p></div></div>
             </a>
         </Link>
       </div>

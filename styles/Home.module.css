@@ -125,7 +125,7 @@
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(0, 39, 152, 1) 100%
+    rgba(55, 77, 120, 1) 100%
   );
 }
 
@@ -248,5 +248,13 @@
     background-image: url("../public/fond-format-telephone.avif");
     background-size: cover;
     opacity: 0.8;
+  }
+  .projets {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(130, 164, 175, 1) 100%
+    );
   }
 }
