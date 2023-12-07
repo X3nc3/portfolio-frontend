@@ -110,7 +110,7 @@
   .overlayStyle {
     opacity: 1;
     color: white;
-    font-size: 8px;
+    font-size: 7px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
