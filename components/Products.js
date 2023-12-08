@@ -43,7 +43,7 @@ function Products() {
                 style={{
                   backgroundImage: `url(${product.image})`,
                   backgroundSize: "contain",
-                  backgroundSize: "cover",
+                  // backgroundSize: "cover",
                   backgroundRepeat: 'no-repeat',
                 }}
                 className={styles.productCard}
