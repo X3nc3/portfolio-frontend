@@ -16,7 +16,7 @@ function Products() {
     {
       image: "/fond-mymoviz.png",
       name: "My Moviz",
-      lien: "https://mymoviz-frontend-m8d5e3qfv-x3nc3s-projects.vercel.app/",
+      lien: "https://mymoviz-frontend-self-eight.vercel.app/",
       content: "My Moviz est un site qui va vous permettre d’afficher les derniers films sortis grace à l’API The Movie Database avec la possibilité de créer une wishlist, placer un compteur de vues et d’évaluer chacun des films présentés. La particularité de cette appli est qu’elle est développée en React.",
     },
     {
